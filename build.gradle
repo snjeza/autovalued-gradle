@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+    id 'eclipse'
+    id 'com.diffplug.eclipse.apt' version "3.40.0"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.google.auto.value:auto-value-annotations:1.10'
+    annotationProcessor ('com.google.auto.value:auto-value:1.10')
+}
+
+eclipse {
+    synchronizationTasks eclipseJdtApt, eclipseJdt, eclipseFactorypath
+}

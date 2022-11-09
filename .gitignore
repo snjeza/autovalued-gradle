@@ -1,0 +1,14 @@
+**/node_modules/
+.DS_Store
+target/
+bin/
+*.iml
+.idea
+.project
+.classpath
+.settings/
+.apt_generated/
+.apt_generated_tests/
+.gradle/
+.factorypath
+build/
