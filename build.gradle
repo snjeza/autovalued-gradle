@@ -14,5 +14,5 @@ dependencies {
 }
 
 eclipse {
-    synchronizationTasks eclipseJdtApt, eclipseJdt, eclipseFactorypath
+    synchronizationTasks eclipseJdtApt, eclipseJdt, cleanEclipseFactorypath, eclipseFactorypath
 }
